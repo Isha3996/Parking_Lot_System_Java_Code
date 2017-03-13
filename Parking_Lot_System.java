@@ -205,7 +205,7 @@ public class Parking_Lot_System
 							if(obj1[i].reg_no==n && obj1[i].t_slots[i]==1)
 							{
 								f4=1;
-								System.out.println("Vehicle is parked at slot number:"+(obj1[i].slot_no+1));
+								System.out.println("Vehicle is parked at slot number:"+(obj1[i].slot_no));
 							}
 						}
 					}
@@ -213,10 +213,10 @@ public class Parking_Lot_System
 					{
 						for(int i=0;i<10;i++)
 						{
-							if(obj2[i].reg_no==n && obj1[i].f_slots[i]==1)
+							if(obj2[i].reg_no==n && obj2[i].f_slots[i]==1)
 							{
 								f4=1;
-								System.out.println("Vehicle is parked at slot number:"+(obj2[i].slot_no+1));
+								System.out.println("Vehicle is parked at slot number:"+(obj2[i].slot_no));
 							}
 						}
 					}
